@@ -1,12 +1,12 @@
 DataDirectory /var/lib/tor
 ControlPort 9051
-ORPort 4443
+ORPort 8443
 Address friendlyexitnode.com
 Nickname FriendlyExitNode
-RelayBandwidthRate 5 MB
-RelayBandwidthBurst 5 MB
-ContactInfo friendlyexitnode@protonmail.com
-DirPort 480
+RelayBandwidthRate 50 MB
+RelayBandwidthBurst 50 MB
+ContactInfo C834 E627 6489 5354 friendlyexitnode@protonmail.com
+DirPort 8080
 DirPortFrontPage /etc/tor/tor-exit-notice.html
 MyFamily F81C9B79150D85D78B4DF5D70A1789FBE0D608A4
 ExitPolicy reject 0.0.0.0/8:*

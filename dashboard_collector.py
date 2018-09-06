@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/pub_key.asc')
 def send_key():
-    return app.send_static_file('/var/www/pub_key.asc')
+    return app.send_static_file('pub_key.asc')
 
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')

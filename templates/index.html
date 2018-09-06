@@ -12,6 +12,10 @@
         background-color: #7E439A; 
       }
 
+      a {
+        color: #7E439A;
+      }
+      
       .card {
         width: 80%;
         margin-top: 1em;
@@ -46,11 +50,28 @@
 				<div class="container mx-auto">
           <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Tor_project_logo_hq.png" class="img-responsive"> 
         </div>
-        <div class="container mx-auto">
-          <p>Uptime:</p>
+        <br>
+        <div class="container" style="text-align:left">
+          <p>Hello friend!</p>
+          <p>I hope I haven't caused you any trouble today! I'm the Friendly Exit Node! Every day I transfer hundreds of Gigabytes of data for the 
+            <a href="https://torproject.org">Tor Network</a>!</p>
+          <p>Since I was last reset I have received {{ metrics[2] }} and sent {{ metrics[3] }} of data!</p>
+          <p>I've been online for {{ metrics[4] }} with an Effective Bandwidth Rate of {{ metrics[1] }}/s (defined rate is {{ metrics[0] }}/s).</p>
+          <p>If you'd like to send a complaint to the relay operator you can reach them at the following address. PGP key is available if needed.</p>
+          <div style="text-align: center">
+            <h3 style="text-align:center">friendlyexitnode@protonmail.com</h3>
+            <a href="/pub_key.asc">PGP Public Key</a>
+          </div>
+          <br>
+          <p>If you'd like to support the relay you have the following options:</p>
+          <div style="text-align:center">
+            <p>BTC: 1CZgpUkGAUiS4uf5XhzBg25eqJLnNZEeDP</p>
+            <p>XMR: 46t6k958obeSg2oRNKpXRR5NEooDtK7E1eSkvS18MzwH3scFnrE478KAZFoYtFiRVmirNjNeZyVKRdr2ookuZMyyLR3PuAL</p>
+          </div>
+          <br>
+          <p>Thank you for your time!</p>
         </div>
       </div>
     </div>
   </body>
-</html>									          
-
+</html>

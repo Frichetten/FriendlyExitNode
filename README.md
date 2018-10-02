@@ -1,9 +1,9 @@
 # FriendlyExitNode
 The source/config of the Friendly Exit Node project.  
 
-https://friendlyexitnode.com  
+**The website is no longer available. There were issues with the number of connections** 
 
-https://metrics.torproject.org/rs.html#details/6759B71CE9D7A3DE0401B500605F394837403FEB
+https://metrics.torproject.org/rs.html#details/ECDAD6C90BA4F67FF2B48B877F934FD2C18190E4
 
 Support the relay with the following options:
 

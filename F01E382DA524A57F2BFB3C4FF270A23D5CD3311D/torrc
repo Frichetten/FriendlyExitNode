@@ -31,7 +31,7 @@ RelayBandwidthBurst 15 MB # But allow bursts up to 200KB/s (1600Kbps)
 ## descriptors containing these lines and that Google indexes them, so
 ## spammers might also collect them. You may want to obscure the fact that
 ## it's an email address and/or generate a new address for this purpose.
-ContactInfo C834 E627 6489 5354 friendlyexitnode(@t)protonmail.com 1CZgpUkGAUiS4uf5XhzBg25eqJLnNZEeDP
+ContactInfo friendlyexitnode(@t)protonmail.com 1CZgpUkGAUiS4uf5XhzBg25eqJLnNZEeDP
 
 ## Uncomment this to mirror directory information for others. Please do
 ## if you have enough bandwidth.

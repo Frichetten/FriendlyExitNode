@@ -1,0 +1,30 @@
+---
+
+- hosts: relays
+  vars:
+    tor_ContactInfo: friendlyexitnode(@|t)protonmail.com - 1CZgpUkGAUiS4uf5XhzBg25eqJLnNZEeDP
+    tor_signingkeylifetime_days: 90
+    tor_nicknamefile: "./tor_nicknamefile.csv"
+    tor_exit_notice_file: "tor_exit_notice_file.html"
+    tor_ExitRelay: True
+    tor_enableControlSocket: True
+    tor_ports:
+      - { orport: 443, dirport: 80 }
+      - { orport: 8443, dirport: 8080 }
+    tor_ExitPolicy: 
+      - reject 0.0.0.0/8:*
+      - reject 127.0.0.0/8:*
+      - reject 192.168.0.0/16:*
+      - reject 10.0.0.0/8:*
+      - reject 172.16.0.0/12:*
+      - reject 209.141.45.189:*
+      - reject 44.128.0.0/16:*
+      - reject 169.254.0.0/15:*
+      - reject 62.141.55.117:*
+      - reject 62.141.54.117:*
+      - reject *:25
+      - reject *:465
+      - reject *:587
+      - accept *:*
+  roles:
+   - nusenu.relayor

@@ -23,5 +23,5 @@ You can reach me at friendlyexitnode(@|t)protonmail.com (<a href="https://raw.gi
 # Support/Donate
 Running the relays costs approximately $265 a year. Support the relays with the following options. All proceeds support the infrastructure.
 
-BTC: 1CZgpUkGAUiS4uf5XhzBg25eqJLnNZEeDP  
-XMR: 46t6k958obeSg2oRNKpXRR5NEooDtK7E1eSkvS18MzwH3scFnrE478KAZFoYtFiRVmirNjNeZyVKRdr2ookuZMyyLR3PuAL  
+BTC: 34neRz8QcWKsfiLF7HjDTSrVkB3Tx8vKjZ  
+Zcash: t1Vx3Feb7ByrLVeiPbZrqeVihAhuXRPVDae  

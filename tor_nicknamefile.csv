@@ -1,5 +1,5 @@
 inventory_hostname-ip_orport,nickname
 209.141.54.195-209.141.54.195_443,FriendlyExitNode1
-208.141.54.195-209.141.54.195_8443,FriendlyExitNode2
+209.141.54.195-209.141.54.195_8443,FriendlyExitNode2
 209.141.45.189-209.141.45.189_443,FriendlyExitNode3
 209.141.45.189-209.141.45.189_8443,FriendlyExitNode4

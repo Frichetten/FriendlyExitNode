@@ -2,8 +2,7 @@
 
 - hosts: relays
   vars:
-    tor_ContactInfo: ContactInfo email:friendlyexitnode[]protonmail.com abuse:friendlyexitnode[]protonmail.com operatorurl:https://frichetten.com verifyurl:https://frichetten.com/tor_verification.txt gpg:0a1ecd857a657025d03591cb175d1ce2981e686a twitter:frichette_n hoster:https://buyvm.net/ cost:15.00USD uplinkbw:10 memory:2048 virtualization:kvm bitcoin:34neRz8QcWKsfiLF7HjDTSrVkB3Tx8vKjZ zcash:t1Vx3Feb7ByrLVeiPbZrqeVihAhuXRPVDae offlinemasterkey:y signingkeylifetime:90 sandbox:y os:Ubuntu/20.04 autoupdate:y confmgmt:ansible dnslocation:local dnssec:y dnslocalrootzone:y ciissversion:1 trafficacct:unmetered
-    tor_signingkeylifetime_days: 90
+    tor_ContactInfo: ContactInfo email:friendlyexitnode[]protonmail.com url:https://frichetten.com proof:uri-rsa abuse:friendlyexitnode[]protonmail.com gpg:0a1ecd857a657025d03591cb175d1ce2981e686a twitter:frichette_n hoster:buyvm.net cost:15.00USD uplinkbw:10 memory:2048 virtualization:KVM btc:34neRz8QcWKsfiLF7HjDTSrVkB3Tx8vKjZ zec:t1Vx3Feb7ByrLVeiPbZrqeVihAhuXRPVDae offlinemasterkey:y signingkeylifetime:90 sandbox:y os:Ubuntu/20.04 autoupdate:y confmgmt:ansible dnslocation:local dnssec:y dnslocalrootzone:y ciissversion:2 trafficacct:unmetered
     tor_nicknamefile: "./tor_nicknamefile.csv"
     tor_exit_notice_file: "tor_exit_notice_file.html"
     tor_ExitRelay: True
